@@ -1,0 +1,100 @@
+
+{
+    "clear sky": {
+      "traduccion": "Cielo despejado",
+      "imagen": "cloud-rain",
+      "biblioteca": "Feather",
+      "gif": "https://cdn.pixabay.com/animation/2024/08/17/11/53/11-53-24-721_512.gif"
+    },
+    "few clouds": {
+      "traduccion": "Parcialmente Nublado",
+      "imagen": "cloud",
+      "biblioteca": "AntDesign",
+      "gif": "https://cdn.pixabay.com/animation/2023/03/11/17/29/17-29-27-410_512.gif"
+    },
+    "scattered clouds": {
+      "traduccion": "Nublado",
+      "imagen": "cloud",
+      "biblioteca": "AntDesign",
+      "gif": "https://cdn.pixabay.com/animation/2023/03/11/17/29/17-29-27-410_512.gif"
+    },
+    "broken clouds": {
+      "traduccion": "Parcialmente Nublado",
+      "imagen": "cloud",
+      "biblioteca": "AntDesign",
+      "gif": "https://cdn.pixabay.com/animation/2023/03/11/17/29/17-29-27-410_512.gif"
+    },
+    "overcast clouds": {
+      "traduccion": "Mayormente Nublado",
+      "imagen": "cloud",
+      "biblioteca": "AntDesign",
+      "gif": "https://cdn.pixabay.com/animation/2023/03/11/17/29/17-29-27-410_512.gif"
+    },
+    "shower rain": {
+      "traduccion": "Chubasco",
+      "imagen": "rains",
+      "biblioteca": "Fontisto",
+      "gif": "https://cdn.pixabay.com/animation/2024/11/27/20/42/20-42-16-471_512.gif"
+    },
+    "rain": {
+      "traduccion": "Lluvia",
+      "imagen": "rain",
+      "biblioteca": "Fontisto",
+      "gif": "https://cdn.pixabay.com/animation/2024/11/27/20/42/20-42-16-471_512.gif"
+    },
+    "thunderstorm": {
+      "traduccion": "Tormenta eléctrica",
+      "imagen": "thunderstorm",
+      "biblioteca": "Ionicons",
+      "gif": "https://cdn.pixabay.com/animation/2024/12/03/22/49/22-49-15-770_512.gif"
+    },
+    "snow": {
+      "traduccion": "Nieve",
+      "imagen": "cloud-snow",
+      "biblioteca": "Feather",
+      "gif": "https://cdn.pixabay.com/animation/2023/02/15/02/31/02-31-39-143_512.gif"
+    },
+    "mist": {
+      "traduccion": "Neblina",
+      "imagen": "cloud",
+      "biblioteca": "AntDesign",
+      "gif": "https://cdn.pixabay.com/animation/2023/03/11/17/29/17-29-27-410_512.gif"
+    },
+    "haze": {
+      "traduccion": "Bruma",
+      "imagen": "day-haze",
+      "biblioteca": "Fontisto",
+      "gif": "https://media1.tenor.com/m/5ImWLS5QAJgAAAAC/foggy-fog.gif"
+    },
+    "fog": {
+      "traduccion": "Niebla",
+      "imagen": "foggy",
+      "biblioteca": "Feather",
+      "gif": "https://media1.tenor.com/m/5ImWLS5QAJgAAAAC/foggy-fog.gif"
+    },
+    "drizzle": {
+      "traduccion": "Llovizna",
+      "imagen": "foggy",
+      "biblioteca": "MaterialIcons",
+      "gif": "https://cdn.pixabay.com/animation/2024/11/27/20/42/20-42-16-471_512.gif"
+    },
+    "moderate rain": {
+      "traduccion": "LLuvia",
+      "imagen": "cloud-rain",
+      "biblioteca": "Feather",
+      "gif": "https://cdn.pixabay.com/animation/2024/10/23/13/46/13-46-34-684_512.gif"
+    },
+    "light rain": {
+      "traduccion": "Llovizna",
+      "imagen": "cloud-rain",
+      "biblioteca": "Feather",
+      "gif": "https://cdn.pixabay.com/animation/2024/11/27/20/42/20-42-16-471_512.gif"
+    },
+    "heavy intensity rain": {
+      "traduccion": "Chubasco",
+      "imagen": "rains",
+      "biblioteca": "Fontisto",
+      "gif": "https://cdn.pixabay.com/animation/2024/11/27/20/42/20-42-16-471_512.gif"
+    }
+}
+  
