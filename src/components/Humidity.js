@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import axios from 'axios';
 import * as Location from 'expo-location';
+import { WEATHER_API_KEY } from '@env';
+
 
 
 const Humidity = () => {
@@ -10,7 +12,6 @@ const Humidity = () => {
   const [errorMsg, setErrorMsg] = useState(null);
   const [city, setCity] = useState(null);
 
-  const WEATHER_API_KEY = '9787d3244c3dc5c13911cf7336a0f634'; 
 
   useEffect(() => {
     (async () => {
@@ -95,6 +96,7 @@ const styles = StyleSheet.create({
   },
   maxTemp:{
     color: "white",
+    fontFamily: 'pacifico',
     backgroundColor: "transparent",
     borderBottomWidth: 1,
     borderBottomColor: "#FFFFFF",
@@ -110,13 +112,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   label: {
+    fontFamily: 'pacifico',
     fontSize: 15,
-    fontWeight: 'bold',
     color: '#fff',
   },
   value: {
+    fontFamily: 'pacifico',
     fontSize: 15,
-    fontWeight: 'bold',
     color: '#fff',
   },
   error: {

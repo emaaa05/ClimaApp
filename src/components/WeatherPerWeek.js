@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 import axios from 'axios';
 import * as Location from 'expo-location';
+import { WEATHER_API_KEY} from '@env';
+
 
 const WeatherPerWeek = () => {
   const [forecast, setForecast] = useState([]);
   const [errorMsg, setErrorMsg] = useState(null);
 
-  const WEATHER_API_KEY = '9787d3244c3dc5c13911cf7336a0f634';
 
   useEffect(() => {
     (async () => {
@@ -91,8 +92,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
+    fontFamily: 'pacifico',
     fontSize: 20,
-    fontWeight: 'bold',
     color: '#fff',
     marginBottom: 10,
     textShadowColor: 'rgba(0, 0, 0, 0.5)',
@@ -117,23 +118,24 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   row: {
-    flexDirection: 'row',  // Alinea los elementos en una fila
-    justifyContent: 'space-between', // Espacio entre los elementos
-    alignItems: 'center', // Centra verticalmente
+    flexDirection: 'row',  
+    justifyContent: 'space-between', 
+    alignItems: 'center', 
     width: '100%',
   },
   date: {
     fontSize: 16,
+    fontFamily: 'pacifico',
     fontWeight: '600',
     color: '#fff',
     textTransform: 'capitalize',
-    flex: 1,  // Asegura que ocupe el espacio disponible
+    flex: 1,  
   },
   temp: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontFamily: 'pacifico',
     color: '#fff',
-    marginHorizontal: 10, // Espacio entre la temperatura y el icono
+    marginHorizontal: 10, 
   },
   weatherIcon: {
     width: 30,
@@ -141,6 +143,7 @@ const styles = StyleSheet.create({
   },
   error: {
     fontSize: 16,
+    fontFamily: 'pacifico',
     color: '#ff6b6b',
     textAlign: 'center',
   },

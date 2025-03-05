@@ -4,6 +4,7 @@ import * as Location from 'expo-location';
 import axios from 'axios';
 import weatherTranslations from '../../weatherTranslations.json';
 import { MaterialCommunityIcons, FontAwesome, Feather, AntDesign, Fontisto, Ionicons, Entypo } from '@expo/vector-icons';
+import { WEATHER_API_KEY, OPENCAGE_API_KEY } from '@env';
 
 function Weather() {
   const [location, setLocation] = useState(null);
@@ -11,8 +12,7 @@ function Weather() {
   const [weather, setWeather] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
-  const WEATHER_API_KEY = '9787d3244c3dc5c13911cf7336a0f634';
-  const OPENCAGE_API_KEY = 'fd3e62ab47aa4c4faac2572516ec2c38';
+
 
   useEffect(() => {
     (async () => {
@@ -96,10 +96,10 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
+    fontFamily: 'pacifico',
     fontSize: 32,
-    fontWeight: 'bold',
     color: '#fff',
-    textShadowColor: 'rgba(0, 0, 0, 0.5)',
+    textShadowColor: 'rgba(8, 2, 2, 0.5)',
     textShadowOffset: { width: 2, height: 2 },
     textShadowRadius: 4,
     marginBottom: 20,
@@ -115,12 +115,14 @@ const styles = StyleSheet.create({
   },
   city: {
     fontSize: 26,
+    fontFamily: 'Pacifico',
     fontWeight: '600',
     color: '#fff',
     marginBottom: 12,
   },
   temp: {
     fontSize: 24,
+    fontFamily: 'Pacifico',
     color: '#fff',
     marginBottom: 12,
   },
@@ -131,6 +133,7 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 20,
+    fontFamily: 'pacifico',
     color: '#fff',
     marginLeft: 12,
     textTransform: 'capitalize',

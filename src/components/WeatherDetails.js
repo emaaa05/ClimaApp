@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { WEATHER_API_KEY } from '@env';
+
 
 const WeatherDetails = () => {
   const [windSpeed, setWindSpeed] = useState(null);
@@ -9,7 +11,6 @@ const WeatherDetails = () => {
   const [pressure, setPressure] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
-  const WEATHER_API_KEY = '9787d3244c3dc5c13911cf7336a0f634';
 
   useEffect(() => {
     const fetchWeatherData = async () => {
@@ -96,14 +97,15 @@ const styles = StyleSheet.create({
     elevation: 5,
     },
   cardTitle: {
+    fontFamily: 'pacifico',
     fontSize: 16,
     fontWeight: '600',
     color: '#fff',
     marginBottom: 5,
   },
   cardValue: {
+    fontFamily: 'pacifico',
     fontSize: 16,
-    fontWeight: 'bold',
     color: '#fff',
   },
   error: {

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
+import { WEATHER_API_KEY } from '@env';
 
 const SunTime = () => {
   const [sunrise, setSunrise] = useState(null);
   const [sunset, setSunset] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
-  const WEATHER_API_KEY = '9787d3244c3dc5c13911cf7336a0f634';
+
 
   useEffect(() => {
     const fetchSunTimes = async () => {
@@ -82,7 +83,7 @@ const styles = StyleSheet.create({
     },
   title: {
     fontSize: 18,
-    fontWeight: "bold",
+    fontFamily: 'pacifico',
     color: "#fff",
     textAlign: "center",
     marginBottom: 10,
@@ -94,13 +95,14 @@ const styles = StyleSheet.create({
     gap: 40,
   },
   label: {
-    fontSize: 16,
+    fontFamily: 'pacifico',
+    fontSize: 14,
     fontWeight: "600",
     color: "#fff",
   },
   value: {
-    fontSize: 16,
-    fontWeight: "bold",
+    fontFamily: 'pacifico',
+    fontSize: 14,
     color: "#fff",
   },
   error: {
